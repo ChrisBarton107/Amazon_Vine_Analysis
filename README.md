@@ -1,7 +1,10 @@
 # Amazon_Vine_Analysis
 
 ## Overview
-The analysis used PySpark to perform the extract, transform, and load (ETL) process on a select dataset from Amazon. 
+The analysis used PySpark to perform the extract, transform, and load (ETL) process on a select dataset (US Music) from Amazon. The ETL process used a Google Colaboratory notebook and then connected the data to an Amazon Web Services relational database (AWS RDS). The data was then loaded into a postgres database.<br>
+
+Data: Amazon US Music https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Music_v1_00.tsv.gz
+
 
 ## Results
 ### Vine vs. Non-Vine Reviews
@@ -26,3 +29,4 @@ The analysis used PySpark to perform the extract, transform, and load (ETL) proc
 - Percentage of Five Star Non-Vine reviews: Approximately 64%
 
 ## Summary
+Based on the data collected, it is evident Amazon Vine reviews didn't influence this particular data set. Approximately 64% of Non-Vine reviews were five star reviews while 0% of Vine reviews were five star reviews, revealing no positivity bias for Amazon Vine reviewers in this dataset. 
