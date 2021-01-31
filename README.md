@@ -3,7 +3,7 @@
 ## Overview
 The analysis used PySpark to perform the extract, transform, and load (ETL) process on a select dataset (US Music) from Amazon. The ETL process used a Google Colaboratory notebook and then connected the data to an Amazon Web Services relational database (AWS RDS). The data was then loaded into a postgres database.<br>
 
-Data: Amazon US Music https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Music_v1_00.tsv.gz
+Data: [Amazon - US Music](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Music_v1_00.tsv.gz)
 
 
 ## Results
