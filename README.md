@@ -29,4 +29,4 @@ Data: [Amazon - US Music](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon
 - Percentage of Five Star Non-Vine reviews: Approximately 64%
 
 ## Summary
-Based on the data collected, it is evident Amazon Vine reviews didn't influence this particular data set. Approximately 64% of Non-Vine reviews were five star reviews while 0% of Vine reviews were five star reviews, revealing no positivity bias for Amazon Vine reviewers in this dataset. 
+Based on the data collected, it is evident Amazon Vine reviews didn't influence this particular data set. Approximately 64% of Non-Vine reviews were five star reviews while 0% of Vine reviews were five star reviews, revealing no positivity bias for Amazon Vine reviewers in this dataset. Because of the 0% five star Vine review statistic, no additional data is needed to support the claim of no positivity bias. Using Natural Language Processing (NLP) on reviews could unlock additional insights about the data
